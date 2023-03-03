@@ -1,0 +1,115 @@
+body {
+    font-family: cursive;
+    background-image: radial-gradient(circle at 50% 98.7%, #0075ac 0, #0074bc 4.55%, #0074ca 9.09%, #0072d6 13.64%, #0070df 18.18%, #006de6 22.73%, #006aea 27.27%, #0065ec 31.82%, #005fea 36.36%, #0057e5 40.91%, #004ede 45.45%, #4d42d4 50%, #7333c8 54.55%, #8e1fb9 59.09%, #a200aa 63.64%, #b20098 68.18%, #be0086 72.73%, #c60074 77.27%, #cb0061 81.82%, #ce004f 86.36%, #cd003d 90.91%, #cb002b 95.45%, #c60018 100%);
+
+}
+
+.gran-div {
+    background-color: #30342f;
+    width: 900px;
+    height: 1053px;
+    margin: 0px 350px 100px 350px;
+    border-radius: 60px;
+    border: 4px solid #555;
+    font-style: normal;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+
+
+}
+
+.foto-contenedor {
+    display: flex;
+    justify-content: center;
+
+}
+
+.banner {
+    border-radius: 30px 5px 30px 5px;
+    border: 3px solid #718c8c;
+    margin-bottom: 20px;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-radius: 20px;
+    border-top: 6px solid #30342f ;
+    
+    }
+
+
+
+.lema{
+    align-self: center;
+    margin: 20px;
+    color:rgb(red, green, blue);
+    font-size: 30px;
+}
+
+#titulo-principal {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+
+}
+
+h4 {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+im {
+    color: burlywood;
+}
+
+.redes-sociales {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    height: 50px;
+    font-size: 16px;
+
+}
+
+#encabezado-redes-sociales {
+    text-align: center;
+    font-size: 15px;
+    margin-top: 0px;
+}
+
+.container-footer {
+    background-color: #30342f;
+    border-radius: 60px;
+    color: rgb(0, 0, 0);
+    margin: 20px 0px 20px 0px; 
+    box-shadow: 0 15px 10px rgba(0, 0, 0, 0.5);
+}
+
+@keyframes fadeOut {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+[class ^="imagen"]:hover {
+    animation: fadeOut 2s 1;
+}
+
+[class ^="imagen"] {
+    margin-bottom: 20px;
+}
